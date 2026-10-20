@@ -1,0 +1,5 @@
+{
+  global: JNI_OnLoad;
+  bluetoothInterface;
+  local: *;
+};

@@ -16,11 +16,8 @@ cc_library_static {
     shared_libs: [
          "libcutils",
          "libbase",
-         "libhidlbase",
          "libutils",
          "liblog",
-         "vendor.qti.hardware.btconfigstore@1.0",
-         "vendor.qti.hardware.btconfigstore@2.0",
     ],
     apex_available: [
         "com.android.bt",
@@ -36,11 +33,8 @@ cc_defaults {
     shared_libs: [
          "libcutils",
          "libbase",
-         "libhidlbase",
          "libutils",
          "liblog",
-         "vendor.qti.hardware.btconfigstore@1.0",
-         "vendor.qti.hardware.btconfigstore@2.0",
     ],
 }
 
@@ -52,10 +46,7 @@ rust_defaults {
     shared_libs: [
          "libcutils",
          "libbase",
-         "libhidlbase",
          "libutils",
          "liblog",
-         "vendor.qti.hardware.btconfigstore@1.0",
-         "vendor.qti.hardware.btconfigstore@2.0",
     ],
 }
